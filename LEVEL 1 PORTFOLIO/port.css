@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: 25px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#about .profile-img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    font-size: 25px;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 0 10px;
+    background: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.project-item {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 25px;
+}
+
+.project-item img {
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    margin-top: 0.5rem;
+}
+
+#resume a {
+    display: block;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#resume a:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
